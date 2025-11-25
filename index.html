@@ -3,192 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studio RM - Beleza e Elegância em Cada Detalhe</title>
-    <link rel="icon" type="image/png" href="./assets/logo-studio-rm.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="description" content="Studio RM - Salão de beleza especializado em cortes, maquiagem, unhas e produções especiais. Agende seu horário!">
+    <title>Studio RM - Beleza e Elegância que Transformam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Header -->
+    <!-- Header & Navigation -->
     <header id="header">
         <div class="container header-container">
-            <a href="#" class="logo"><img src="./assets/logo-studio-rm.png" alt="Studio RM" class="logo-img"></a>
+            <a href="#" class="logo">Studio <span>RM</span></a>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            
             <div class="hamburger">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#about">Sobre Nós</a></li>
-                <li><a href="#testimonials">Depoimentos</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
+    <section class="hero" id="home" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/logo.jpg') no-repeat center center/cover;">
         <div class="hero-content">
-            <h1>Beleza e Elegância em Cada Detalhe</h1>
-            <p>Descubra a excelência em cuidados pessoais no Studio RM, onde cada cliente é único e cada detalhe faz a diferença.</p>
-            <a href="https://wa.me/5551982523848?text=Olá! Gostaria de agendar um horário no Studio RM" class="btn btn-whatsapp">
-                <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
-            </a>
+            <h1>Studio RM - Beleza e Elegância que Transformam</h1>
+            <p>Cortes, Maquiagem, Unhas e Produções Especiais</p>
+            <a href="https://wa.me/5551999999999?text=Olá! Gostaria de agendar um horário no Studio RM" class="btn btn-hero">Agendar seu atendimento</a>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section class="section services" id="services">
+    <section class="services" id="servicos">
         <div class="container">
-            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Descubra nossos serviços exclusivos e transforme sua beleza</p>
+            </div>
+            
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-cut"></i>
                     </div>
                     <h3>Cortes Femininos</h3>
-                    <p>Cortes modernos e personalizados que valorizam seu estilo único e realçam sua beleza natural.</p>
+                    <p>Cortes modernos e personalizados para realçar sua beleza natural.</p>
                 </div>
+                
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-user-tie"></i>
+                        <i class="fas fa-cut"></i>
                     </div>
                     <h3>Cortes Masculinos</h3>
-                    <p>Estilo e cuidado em cada corte, com técnicas que valorizam o visual masculino.</p>
+                    <p>Estilo e precisão para um visual impecável.</p>
                 </div>
+                
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-paint-brush"></i>
                     </div>
                     <h3>Maquiagem Profissional</h3>
-                    <p>Realce sua beleza natural com técnicas profissionais de maquiagem para todos os tipos de pele.</p>
+                    <p>Destaque sua beleza com técnicas profissionais.</p>
                 </div>
+                
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-calendar-alt"></i>
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Design de Unhas</h3>
+                    <p>Arte e beleza nas pontas dos seus dedos.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
                     </div>
                     <h3>Produções para Eventos</h3>
-                    <p>Serviços completos de beleza para noivas, formaturas e ocasiões especiais.</p>
+                    <p>Beleza completa para ocasiões especiais.</p>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <h3>Makeup para Noivas</h3>
-                    <p>Maquiagem especial para o seu grande dia, com produtos de alta qualidade e durabilidade.</p>
+                    <h3>Produções para Noivas e Debutantes</h3>
+                    <p>Atendimento personalizado para o seu grande dia.</p>
                 </div>
+                
             </div>
         </div>
     </section>
 
     <!-- Portfolio Section -->
-    <section class="section portfolio" id="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
-            <h2 class="section-title">Trabalhos Realizados</h2>
-            <div class="portfolio-slider">
-                <div class="slider-track" id="sliderTrack">
-                    <div class="slide">
-                        <img src="./assets/1.png" alt="Trabalho 1">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/2.png" alt="Trabalho 2">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/3.png" alt="Trabalho 3">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/4.png" alt="Trabalho 4">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/5.png" alt="Trabalho 5">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/6.png" alt="Trabalho 6">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/7.png" alt="Trabalho 7">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/8.png" alt="Trabalho 8">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/9.png" alt="Trabalho 9">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/10.png" alt="Trabalho 10">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/11.png" alt="Trabalho 11">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/12.png" alt="Trabalho 12">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/13.png" alt="Trabalho 13">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/14.png" alt="Trabalho 14">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/15.png" alt="Trabalho 15">
-                    </div>
-                </div>
-                <div class="slider-arrow prev" id="prevSlide">
-                    <i class="fas fa-chevron-left"></i>
-                </div>
-                <div class="slider-arrow next" id="nextSlide">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
-                <div class="slider-nav" id="sliderNav">
-                    <div class="slider-dot active" data-slide="0"></div>
-                    <div class="slider-dot" data-slide="1"></div>
-                    <div class="slider-dot" data-slide="2"></div>
-                    <div class="slider-dot" data-slide="3"></div>
-                    <div class="slider-dot" data-slide="4"></div>
-                    <div class="slider-dot" data-slide="5"></div>
-                    <div class="slider-dot" data-slide="6"></div>
-                    <div class="slider-dot" data-slide="7"></div>
-                    <div class="slider-dot" data-slide="8"></div>
-                    <div class="slider-dot" data-slide="9"></div>
-                    <div class="slider-dot" data-slide="10"></div>
-                    <div class="slider-dot" data-slide="11"></div>
-                    <div class="slider-dot" data-slide="12"></div>
-                    <div class="slider-dot" data-slide="13"></div>
-                    <div class="slider-dot" data-slide="14"></div>
-                </div>
+            <div class="section-title">
+                <h2>Nosso Portfólio</h2>
+                <p>Confira alguns dos nossos trabalhos recentes</p>
             </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="section about" id="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">Sobre Nós</h2>
-                    <p>No Studio RM, acreditamos que a beleza é uma forma de expressão pessoal e autoestima. Nossa missão é proporcionar uma experiência única e personalizada para cada cliente, utilizando técnicas inovadoras e produtos de alta qualidade.</p>
-                    <p>Nossa equipe de profissionais altamente qualificados está comprometida em oferecer serviços excepcionais, garantindo que cada visita ao nosso estúdio seja uma experiência transformadora.</p>
-                    <p>Com anos de experiência no mercado, nos destacamos pela dedicação, profissionalismo e atenção aos detalhes que fazem toda a diferença no resultado final.</p>
-                    <a href="#contact" class="btn">Entre em Contato</a>
-                </div>
-                <div class="about-image">
-                    <img src="./assets/logo-black.png" alt="Studio RM Interior">
-                </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="cortes">Cortes</button>
+                <button class="filter-btn" data-filter="maquiagem">Maquiagem</button>
+                <button class="filter-btn" data-filter="unhas">Unhas</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Portfolio items will be dynamically added here via JavaScript -->
             </div>
         </div>
     </section>
 
     <!-- Testimonials Section -->
-    <section class="section testimonials" id="testimonials">
+    <section class="testimonials" id="depoimentos">
         <div class="container">
-            <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
-            <div class="testimonial-grid">
-                <div class="testimonial-card">
+            <div class="section-title">
+                <h2>Depoimentos</h2>
+                <p>O que nossos clientes dizem sobre nós</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-avatar">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Cliente 1">
+                    </div>
                     <div class="testimonial-rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -196,23 +147,29 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"O Studio RM superou todas as minhas expectativas! A equipe é incrivelmente talentosa e atenciosa. Meu cabelo nunca esteve tão bonito!"</p>
-                    <div class="testimonial-author">Ana Carolina S.</div>
-                    <div class="testimonial-role">Cliente há 3 anos</div>
+                    <p class="testimonial-text">"Adorei o atendimento e o resultado do meu corte de cabelo. A equipe é super atenciosa e profissional. Com certeza voltarei mais vezes!"</p>
+                    <span class="testimonial-author">Ana Silva</span>
                 </div>
-                <div class="testimonial-card">
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-avatar">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente 2">
+                    </div>
                     <div class="testimonial-rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"Fiz minha maquiagem de noiva no Studio RM e foi perfeita! Durou o dia todo e recebi muitos elogios. Recomendo de olhos fechados!"</p>
-                    <div class="testimonial-author">Juliana M.</div>
-                    <div class="testimonial-role">Noiva</div>
+                    <p class="testimonial-text">"Melhor salão que já fui! O atendimento é excelente e o ambiente é super agradável. Recomendo a todos!"</p>
+                    <span class="testimonial-author">Carlos Oliveira</span>
                 </div>
-                <div class="testimonial-card">
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-avatar">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Cliente 3">
+                    </div>
                     <div class="testimonial-rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -220,70 +177,283 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <p class="testimonial-text">"Sempre fui muito bem atendido no Studio RM. Profissionais qualificados, ambiente agradável e um resultado impecável. Meu lugar favorito para cuidar do visual!"</p>
-                    <div class="testimonial-author">Roberto C.</div>
-                    <div class="testimonial-role">Cliente frequente</div>
+                    <p class="testimonial-text">"Fiz a maquiagem para o meu casamento e fiquei encantada! A equipe é muito profissional e atenciosa. Super indico!"</p>
+                    <span class="testimonial-author">Juliana Santos</span>
+                </div>
+                
+                <div class="slider-nav prev">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="slider-nav next">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                
+                <div class="slider-dots">
+                    <div class="dot active" data-slide="0"></div>
+                    <div class="dot" data-slide="1"></div>
+                    <div class="dot" data-slide="2"></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact & Footer -->
-    <footer id="contact">
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2>Por que escolher o Studio RM?</h2>
+                    <p>No Studio RM, acreditamos que a beleza é uma forma de arte e autoexpressão. Nossa equipe de profissionais altamente qualificados está comprometida em fornecer serviços excepcionais que realçam sua beleza natural e aumentam sua confiança.</p>
+                    
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Profissionais Qualificados</h4>
+                                <p>Equipe especializada e em constante atualização</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-spa"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Produtos Premium</h4>
+                                <p>Utilizamos apenas marcas de alta qualidade</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Ambiente Sofisticado</h4>
+                                <p>Conforto e elegância para sua experiência</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Atendimento Personalizado</h4>
+                                <p>Cuidado individualizado para cada cliente</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="10">0</div>
+                            <div class="stat-label">Anos de Experiência</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="5000">0</div>
+                            <div class="stat-label">Clientes Satisfeitos</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-img">
+                    <img src="./assets/logo.jpg" alt="Sobre o Studio RM">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Agende seu horário ou tire suas dúvidas</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Endereço</h4>
+                                <p>Rua Exemplo, 123 - Centro<br>Porto Alegre/RS - CEP 90000-000</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Telefone</h4>
+                                <p><a href="tel:+5551999999999">(51) 99999-9999</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:contato@studiorm.com.br">contato@studiorm.com.br</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="far fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Horário de Funcionamento</h4>
+                                <p>Segunda a Sexta: 9h às 20h<br>
+                                Sábado: 9h às 18h<br>
+                                Domingo: Fechado</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="form-contato" novalidate>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="nome" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="telefone" placeholder="Seu Telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="servico" required>
+                                <option value="" disabled selected>Selecione um serviço</option>
+                                <option value="corte-feminino">Corte Feminino</option>
+                                <option value="corte-masculino">Corte Masculino</option>
+                                <option value="maquiagem">Maquiagem</option>
+                                <option value="unhas">Design de Unhas</option>
+                                <option value="noiva">Produção para Noivas</option>
+                                <option value="evento">Produção para Eventos</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" class="form-control" id="data" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <iframe 
+                    src="https://maps.google.com/maps?q=Av.%20John%20Kennedy%2C%20821%20-%20Santa%20Teresa%2C%20S%C3%A3o%20Leopoldo%20-%20RS%2C%2093035-003&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-about">
-                    <a href="#" class="footer-logo">Studio RM</a>
-                    <p>Especialistas em beleza e bem-estar, oferecendo serviços de alta qualidade para realçar sua beleza natural.</p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/studiorm.sl/" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" class="footer-logo">Studio <span>RM</span></a>
+                    <p>Transformando a beleza em arte desde 2013. No Studio RM, nossa missão é realçar sua beleza natural com profissionalismo e dedicação.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
                     </div>
                 </div>
-                <div class="footer-links-container">
-                    <h3 class="footer-heading">Links Rápidos</h3>
-                    <ul class="footer-links">
-                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Início</a></li>
-                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Serviços</a></li>
-                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfólio</a></li>
-                        <li><a href="#about"><i class="fas fa-chevron-right"></i> Sobre Nós</a></li>
-                        <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Depoimentos</a></li>
+                
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
-                <div class="footer-contact">
-                    <h3 class="footer-heading">Contato</h3>
-                    <ul class="contact-info">
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Av. John Kenedy, 821<br>São Leopoldo - RS</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-phone-alt"></i>
-                            <span>(51) 98252-3848</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope"></i>
-                            <span>contato@studiorm.com.br</span>
-                        </li>
-                        <li>
-                            <i class="far fa-clock"></i>
-                            <span>Seg - Sáb: 9:00 - 20:00<br>Dom: Fechado</span>
-                        </li>
+                
+                <div class="footer-links">
+                    <h3>Nossos Serviços</h3>
+                    <ul>
+                        <li><a href="#">Cortes Femininos</a></li>
+                        <li><a href="#">Cortes Masculinos</a></li>
+                        <li><a href="#">Maquiagem Profissional</a></li>
+                        <li><a href="#">Design de Unhas</a></li>
+                        <li><a href="#">Produções para Eventos</a></li>
+                        <li><a href="#">Produções para Noivas</a></li>
                     </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Inscreva-se para receber nossas novidades e promoções especiais.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu melhor email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div class="payment-methods">
+                        <h4>Formas de Pagamento</h4>
+                        <div class="payment-icons">
+                            <i class="fab fa-cc-visa" title="Visa"></i>
+                            <i class="fab fa-cc-mastercard" title="Mastercard"></i>
+                            <i class="fab fa-cc-amex" title="American Express"></i>
+                            <i class="fas fa-money-bill-wave" title="Dinheiro"></i>
+                            <i class="fas fa-mobile-alt" title="PIX"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2025 Studio RM. Todos os direitos reservados.</p>
+                <p>&copy; 2025 Studio RM - Todos os direitos reservados. Desenvolvido com <i class="fas fa-heart"></i> por <a href="#" style="color: var(--silver-1);">Studio RM</a></p>
             </div>
         </div>
     </footer>
 
-    <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/5551982523848?text=Olá! Gostaria de agendar um horário no Studio RM" class="whatsapp-float" target="_blank">
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/5551999999999?text=Olá! Gostaria de agendar um horário no Studio RM" class="btn-whatsapp" aria-label="WhatsApp">
         <i class="fab fa-whatsapp"></i>
+        <span>Agendar</span>
     </a>
 
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript -->
     <script src="js/main.js"></script>
 </body>
 </html>
